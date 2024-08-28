@@ -16,18 +16,10 @@
         }
     ],
     "repositories": [
+
         {
-            "type": "package",
-            "package": {
-                "name": "nswambulance/openspout",
-                "version": "v4.24.51",
-                "type": "package",
-                "source": {
-                    "url": "git@github.com:nswambulance/openspout.git",
-                    "type": "git",
-                    "reference": "4.x"
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/nswambulance/openspout.git"
         }
     ],
     "require": {
