@@ -16,15 +16,23 @@
         }
     ],
     "repositories": [
-
         {
-            "type": "vcs",
-            "url": "https://github.com/nswambulance/openspout.git"
+            "type": "package",
+            "package": {
+                "name": "nswambulance/openspout",
+                "version": "v4.24.51",
+                "type": "package",
+                "source": {
+                    "url": "https://github.com/nswambulance/openspout.git",
+                    "type": "git",
+                    "reference": "4.x"
+                }
+            }
         }
     ],
     "require": {
         "php": "^8.1",
-        "nswambulance/openspout": "4.24.51",
+        "nswambulance/openspout": "v4.24.51",
         "illuminate/support": "^9.0|^10.0|^11.0"
     },
     "require-dev": {
